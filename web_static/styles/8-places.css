@@ -1,6 +1,6 @@
 .places
 {
-    border: 1px solid black;
+    /*border: 1px solid black;*/
     font-size: 30px;
     margin: 20px 20px; 
     /*float: none;*/
@@ -11,8 +11,8 @@
     border: 4px solid #ff5a5f;
     border-radius: 50px;
     color: #ff5a5f;
-    width: 60px;
-    height: 60px;
+    width: 80px;
+    height: 80px;
     font-size: 30px;
     float: left;
     margin: -70px -60px -30px 300px;
@@ -20,7 +20,7 @@
 
 .price_by_night p
 {
-    margin: 10px 1px 1px 5px;
+    margin: 25px 1px 1px 10px;
     
 }
 
@@ -66,13 +66,19 @@ article h2
 .max_guest
 {
     /*border: 1px solid blue;*/
-    width: 100px;
-    height: 50px;
+    align-items: center;
+    width: 90px;
+    height: 60px;
     background-image: url("../images/icon_group.png");
     background-repeat: no-repeat;
     float: left;
+    font-size: 15px;
+    /*margin: 0px 0px 40px 0px;
+    padding: 0px 0px 40px 0px;*/
+    /*border: 1px solid blue;*/
     
 }
+
 .number_rooms
 {
     /*border: 1px solid blue;*/
@@ -81,6 +87,7 @@ article h2
     background-image: url("../images/icon_bed.png");
     background-repeat: no-repeat;
     float: left;
+    font-size: 15px;
 }
 .number_bathrooms
 {
@@ -90,8 +97,23 @@ article h2
     background-image: url("../images/icon_bath.png");
     background-repeat: no-repeat;
     float: left;
+    font-size: 15px;
 }
-.user
+h5
 {
+    /*border: 1px solid red;*/
+    /*align-items: baseline;*/
+    margin: 50px 0px 0px 0px;
+    /*margin-top: 80px;*/
+    /*padding-top: 90; */
+
+   
     
+}
+.description
+{
+    font-size: 16px;
+    word-break: break-all;
+
+   /*border: 1px solid red;*/
 }
